@@ -1,0 +1,12 @@
+
+<GridLayout 
+    rectAlignment="MiddleRight"
+    childAlignment="UpperRight" 
+    height="80%" width="540"
+    startAxis="Vertical" 
+    cellSize="180 40" >
+        <Button onClick="CreateUnitButtonClick(Belisarius Cawl)">Belisarius Cawl</Button>
+        <Button onClick="CreateUnitButtonClick(Skitarii Rangers)">Skitarii Rangers</Button>
+        <Button onClick="CreateUnitButtonClick(Skitarii Vanguard)">Skitarii Vanguards</Button>
+</GridLayout>
+<Text color="#ffffff" outline="#ff0000" outlineSize="2 2" FontSize="40" id="TotalArmyPoints" alignment="UpperCenter" offsetXY="0 -80"></Text>
